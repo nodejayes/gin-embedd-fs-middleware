@@ -52,8 +52,7 @@ func getMimeType(ext string) string {
 		return "text/calendar"
 	case ".jar":
 		return "application/java-archive"
-	case ".mid":
-	case ".midi":
+	case ".mid", ".midi":
 		return "audio/x-midi"
 	case ".mp3":
 		return "audio/mpeg"
@@ -93,8 +92,7 @@ func getMimeType(ext string) string {
 		return "application/x-sh"
 	case ".tar":
 		return "application/x-tar"
-	case ".tif":
-	case ".tiff":
+	case ".tif", ".tiff":
 		return "image/tiff"
 	case ".ts":
 		return "video/mp2t"
@@ -136,20 +134,17 @@ func getMimeType(ext string) string {
 		return "application/ld+json"
 	case ".json":
 		return "application/json"
-	case ".js":
-	case ".mjs":
+	case ".js", ".mjs":
 		return "text/javascript"
 	case ".css":
 		return "text/css"
-	case ".htm":
-	case ".html":
+	case ".htm", ".html":
 		return "text/html"
 	case ".pdf":
 		return "application/pdf"
 	case ".png":
 		return "image/png"
-	case ".jpg":
-	case ".jpeg":
+	case ".jpg", ".jpeg":
 		return "image/jpeg"
 	case ".ico":
 		return "image/vnd.microsoft.icon"
